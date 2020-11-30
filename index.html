@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gogia Fitness</title>
+
+</head>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Texturina:ital,wght@1,100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+/* css reset */
+body{
+    font-family: 'Texturina', serif;
+    color:white;
+
+ background:url('img/Gym-Workout-Wallpapers-Wallpaper-Cave.jpg');
+    background-repeat: no-repeat;
+    display: block;
+    height: 1045px;
+    
+  
+}
+ .navbar{
+    display: inline-block;
+    margin: 2px;
+    padding: 1px;
+ }
+
+ .navbar li{
+    display: inline-block;
+    font-size: 22px;
+
+ }
+ .navbar li a{
+
+     color: white;
+     text-decoration: none;
+     padding: 4px 35px;
+     padding-inline-start: 17px;
+ }
+
+.navbar li a:hover, .navbar li a.active{
+  text-decoration: underline;
+   color: yellow;
+ }
+     
+
+.left{
+    display: inline-block;
+    position:absolute;
+    left: 34px;
+    top: 13px;
+    border: 2px solid red;
+
+}
+.left div{
+    line-height: 10px;
+    font-size: 26px;
+    text-align: center;
+}
+.left img{
+    width: 200px;
+    height:130px;
+    margin-left: 30px;
+   filter: invert(160%);
+
+}
+
+.mid{
+    padding-left: 17px;
+border: 2px solid green;
+display: block;
+width: 41%;
+margin: 23px auto;
+}
+
+.right{
+    position:absolute;
+    right: 34px;
+    top: 15px;
+    display: inline-block;
+    border: 2px solid yellow;
+}
+.container{
+    border: 2px solid green;
+    margin: 130px 80px;
+    padding: 60px 104px;
+    width: 33%;
+    border-radius: 13px;
+}
+.btn
+{
+    font-family: 'Texturina', serif;
+    margin: 4px 9px;
+    border: 2px solid red;
+    border-radius: 9px;
+    font-size: 14px;
+    cursor: pointer;
+    color: white;
+    background-color:dimgrey;
+    padding: 1px 10px;
+}
+
+.form-group input{
+    font-family: 'Texturina', serif;
+    text-align: center;
+    display: block;
+    width: 334px;
+    padding: 5px;
+    border: 2px solid;
+    margin: 7px auto;
+font-size: 18px;
+border-color:darkred ;
+border-radius: 6px;
+
+}
+.container button{
+    text-align: center;
+    display: block;
+    width: 23%;
+    margin: 20px auto;
+}
+
+
+.container h1{
+    text-align: center;
+color:chartreuse;
+}
+.form-group ::placeholder{
+    color:black;
+    font-size: 23px;
+}
+
+</style>
+<body>
+    <heade class="header">
+        <!-- left box for logo -->
+        <div class="left">
+<img src="img/images (1).png" alt="logo">
+
+<div>Gogia Fitness</div>
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitnes calculator</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+
+</a>
+
+        </div>
+<!-- right box for buttons -->
+<div class="right">
+
+<buttun class="btn">Call Now</buttun>
+<buttun class="btn">Email us</buttun>
+
+</div>
+
+    </header>
+    <div class="container">
+        <h1>Join the best GYM of Jaipur (Now)</h1>
+    <form action="noaction.php">
+
+       
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter you name">
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your age">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your gender">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="" placeholder="Enter your locality">
+                        </div>
+
+                        <button class="btn">Submit</button>
+    </form>
+
+
+        
+    </div>
+    
+</body>
+</html>
